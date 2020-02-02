@@ -233,7 +233,7 @@ def generate_r_docs(app):
         r-testthat=2.0.0=r351h29659fb_0 \
         cmake=3.14.0=h52cb24c_0 \
         ca-certificates=2019.11.27=0
-    /home/docs/.conda/bin/conda update -q -y -n base \
+    /home/docs/.conda/bin/conda install -q -y -n base \
         conda=4.7.12
     /home/docs/.conda/bin/conda clean --all -y
     /home/docs/.conda/bin/conda install -q -y -n r_env -c conda-forge \
